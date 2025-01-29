@@ -52,7 +52,7 @@ class HTMLGenerator(dspy.Module):
         return self.generate(description=description)
 
 # 5. Configuración actualizada (¡nuevo formato DSPy 2.5!)
-turbo = dspy.LM("openai/gpt-4o-mini", api_key="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")  # <-- Usa dspy.LM
+turbo = dspy.LM("openai/gpt-4o-mini", api_key="INSERT YOUR API KEY HERE")  # <-- Usa dspy.LM
 dspy.configure(lm=turbo)
 
 # 6. Compilación y ejecución
